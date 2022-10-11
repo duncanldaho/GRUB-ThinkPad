@@ -4,7 +4,7 @@
 
 1. Make themes folder in /boot/grub/
 ```
-sudo mkdir /boot/grub/themes
+sudo mkdir -vp /boot/grub/themes/ThinkPad/
 ```
 2. Download or clone the code.
 ```
@@ -12,7 +12,7 @@ git clone https://github.com/duncanldaho/GRUB-ThinkPad && cd GRUB-ThinkPad
 ```
 2. From inside of the project directory, copy the theme to grub.
 ```
-sudo cp -r * /boot/grub/themes/ThinkPad
+sudo cp -r * /boot/grub/themes/ThinkPad/
 ```
 ## Activating Themes
 
@@ -27,4 +27,8 @@ nano /etc/default/grub
 ```
 GRUB_THEME=/boot/grub/themes/ThinkPad/theme.txt
 GRUB_GFXMODE=[RESOLUTION]
+```
+3. Lastly, update grub.
+```
+sudo update-grub
 ```
