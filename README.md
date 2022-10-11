@@ -12,7 +12,7 @@ git clone https://github.com/duncanldaho/GRUB-ThinkPad && cd GRUB-ThinkPad
 ```
 2. From inside of the project directory, copy the theme to grub.
 ```
-sudo cp -r ThinkPad /boot/grub/themes/
+sudo cp -r * /boot/grub/themes/ThinkPad
 ```
 ## Activating Themes
 
