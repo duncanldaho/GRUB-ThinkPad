@@ -4,9 +4,9 @@ terminal-box: "terminal_box_*.png"
 desktop-image: "background.png"
 
 + boot_menu {
-    left = 10%
+    left = 8%
     width = 50%
-    top = 15%
+    top = 16%
     height = 50%	
     menu_pixmap_style = "menu_pixmap_style_*.png"
 
